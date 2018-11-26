@@ -1,0 +1,64 @@
+/* pages/about/about.wxss */
+page {
+  background-color: rgba(207, 253, 253, 0.692);
+}
+
+.bg {
+  padding-top: 30rpx;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size:100%;
+  width: 100%;
+}
+
+.title{
+  font-family: "微软雅黑";
+  font-size: 20px;
+  color: #6a6a6b;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.content_H{
+  font-family: "微软雅黑";
+  font-size: 15px;
+  color: #6a6a6b;
+  margin-top: 20px;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.content{
+  font-family: "微软雅黑";
+  font-size: 10px;
+  color: #6a6a6b;
+  margin-top: 20px;
+}
+
+.content_end{
+  font-family: "微软雅黑";
+  font-size: 7px;
+  color: #8e8e8f;
+  margin-top: 40px;
+}
+
+.img_2d{
+  width: 80%;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.img_item_2d{
+  width: 184px;
+  height: 200px;
+}
+
+.copyright{
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}

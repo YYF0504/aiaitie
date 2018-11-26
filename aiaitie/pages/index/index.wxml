@@ -1,0 +1,27 @@
+<!--pages/homepage/homepage.wxml-->
+<view class='bg'>
+  <view class='logo_img'>
+    <image src='../../image/logo.png' mode='widthFix'></image>
+  </view>
+  <view style='width:5%; float:left; height:20px'>
+    <image style='width:100%' src='../../image/news.png' mode='widthFix'></image>
+  </view>
+  <view style='width:80%; margin-left:10%; backgroung-color:#fff; padding-bottom:50rpx;'>
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" circular="{{true}}">
+      <block wx:for="{{imgSwiper}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view wx:for="{{imgSrcArray}}" wx:for-item="item">
+    <view class='bg-w'>
+      <navigator style='padding-left:30%;' url="{{urlArray[index]}}">
+        <image class='view_item_H' mode="widthFix" src="{{imgSrcArray[index]}}"></image>
+        <text class='price_of_product' >{{price[index]}}</text>
+        <text class='name_of_product' >{{name[index]}}</text>
+      </navigator>
+    </view>
+  </view>
+</view>

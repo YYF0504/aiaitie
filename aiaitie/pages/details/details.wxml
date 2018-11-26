@@ -1,0 +1,9 @@
+<view wx:if ="{{selectedForm}} = 0">
+  <include src="aizhenjiu.wxml"/>
+</view>
+<view wx:elif ="{{selectedForm}} = 1">
+  <include src="aishuinen.wxml"/>
+</view>
+<view wx:elif ="{{selectedForm}} = 2">
+  <include src="aiyantie.wxml"/>
+</view>

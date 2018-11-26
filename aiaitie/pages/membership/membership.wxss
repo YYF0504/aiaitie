@@ -1,0 +1,51 @@
+/* pages/membership/membership.wxss */
+
+page {
+  background-color: rgba(207, 253, 253, 0.692);
+}
+
+.bg {
+  padding-top: 30rpx;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size:100%;
+  padding-left: 2%;
+  padding-bottom: 500rpx;
+}
+
+.table {
+margin-top: 100rpx;
+border: 0px solid;
+border-right: 0;
+border-bottom: 0;
+width: 98%;
+
+}
+
+.tr {
+width: 100%;
+display: flex;
+justify-content: space-between;
+background-color: #fff;
+}
+
+.th {
+padding: 10px;
+border-bottom: 1px solid #dadada;
+text-align: left;
+font-weight: 400;
+width:100%;
+}
+.td {
+padding: 10px;
+border-bottom: 1px solid #dadada;
+text-align: center;
+width: 80%;
+}
+
+.title{
+  font-size: 20px;
+  color: #000000;
+  font-family: "微软雅黑";
+  text-align: center;
+}

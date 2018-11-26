@@ -1,0 +1,20 @@
+<view>
+  <view style='width: 100%; text-align: center; margin-top:50rpx;'>
+    <text style='font-size:20px; color:rgb(119,91,67); font-weight: bold;'>艾水嫩\n</text>
+    <text style='font-size:12px; color:rgb(51,51,51);'>艾草胶原蛋白蚕丝面膜\n</text>
+    <text style='font-size:8px; color:rgb(51,51,51);'>Wormwood collagen Silk Mask </text>
+  </view>
+
+  <view>
+    <text>品牌起源\n</text>
+    <text space='true' style='font-size:8px; color:rgb(51,51,51);'>
+公司一路追求与探索人类从内散发的健康与美丽，经过两年多的寻觅，无数次的战略谈合，康邦携手百亿药企航母——仁和集团强强联合，研发最新产品。公司注重产品质量，因为这是企业赖以生存的根本，始终坚持“用心制造·精益求精”的质量方针，为客户提供优质的艾制产品
+&emsp;公司致力于弘扬传统文化，专注打造民族品牌，对传承艾草文化投入巨大的精力与不懈的努力，成为艾灸行业全国唯一被授权合法使用李时珍肖像权的企业。为实现“内健康·外美丽”，历时两年研发全球首款使用艾草精华结合护肤的面膜，真正实现“美丽不再‘妆’出来”
+&nbsp; &nbsp;康邦集团深知自己的责任，积极回报社会，热衷于各种慈善活动、爱心助学活动等等，为更多的人奉献爱与“艾”。因品牌的广泛影响力，于2017年5月代表艾灸行业走进联合国，成为“走进联合国唯一艾灸品牌”
+&nbsp; &nbsp;“以自然之道，养自然之身。”既是世人的期盼，也是康邦集团的初衷；是社会的需要，更是未来的发展</text>
+  </view>
+
+
+
+
+</view>

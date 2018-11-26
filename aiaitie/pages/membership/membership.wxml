@@ -1,0 +1,13 @@
+<!--pages/membership/membership.wxml-->
+<view class='bg'>
+  
+    <view class='title'>会员中心</view>
+    <view class="table">
+      <navigator wx:for="{{selectionArray}}" wx:for-item="item" url='{{urlArray[index]}}'>
+        <view class="tr">
+            <view class="th">{{selectionArray[index]}}</view>
+        </view>
+      </navigator>
+    </view>
+ 
+</view>

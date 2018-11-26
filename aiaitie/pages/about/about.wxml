@@ -1,0 +1,20 @@
+<!--pages/about/about.wxml-->
+
+<view class="bg">
+  <view class='title'>『 爱艾贴 』</view>
+
+  <view class='content_H'>您可以通过以下方式联系我们：</view>
+  <view class='img_2d'>
+    <text class='content'>方法一：\n</text>
+    <image class='img_item_2d' mode='widthFix' src='/image/myselfCode.png'></image>
+    <text class='content'>\n</text>
+    <text class='content'>方法二：\n</text>
+    <text class='content'>拨打电话 18112739520\n</text>
+    <text class='content'>方法三：\n</text>
+    <text class='content'>发邮件 aiaitie0512@163.com</text>
+  </view>
+  <view class='copyright'>
+    <text class='content_end'>————————————————————————————————\n</text>
+    <text class='content_end'>© 2018 aiaitie</text>
+  </view>
+</view>
